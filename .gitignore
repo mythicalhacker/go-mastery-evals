@@ -29,3 +29,7 @@ harness/competitors/jetbrains-go-modern/
 # Aider external track: raw clone + generated cases (re-stage with harness/external/stage_aider.py)
 harness/external/_aider-src/
 cases-aider/
+
+# Local API keys — never commit
+.secrets.env
+.env.local

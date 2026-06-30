@@ -1,26 +1,8 @@
 version: openai-gpt5
-runner: openai (OpenAI-compatible chat-completions)
-models (locked & reported): gpt-5.4-mini, gpt-5.5
+generated: 2026-06-30T20:25:27Z
+models: gpt-5.4-nano, gpt-5.4-mini, gpt-5.5
 samples: 5  fix_rounds: 2
-temperature: 0.0
-go: go version go1.26.0 darwin/arm64
-skill_fingerprint: sha256:43293a4e71c8 (content)   # == deepened-v2 skill build
-generated: 2026-06-30T14:17:37Z
-data: results-mini55.json (canonical rows); REPORT.md / REPORT-<model>.md regenerated
-  from it for the reported tiers (mini, 5.5).
-
-# Cross-vendor lift (from results-mini55.json, per RESULTS.md):
-#   gpt-5.4-mini: +19.3 pp   gpt-5.5: +11.9 pp   (zero regressions)
-
-# --- PENDING / not consolidated offline (require a keyed re-run) ---
-# TODO(human): GPT-5.4-nano — no full-suite results.json exists on disk (only a 1-case
-#   re-run report at results/REPORT-gpt-5.4-nano.md). Re-run the full suite with a key,
-#   then `make baseline`, and consolidate here.
-# TODO(human): event-driven-bus fix is NOT folded into the OpenAI snapshot — no post-fix
-#   OpenAI re-run rows exist locally (results/results.json holds only the Anthropic
-#   re-run). The mini/5.5 numbers therefore PREDATE the fix and are conservative
-#   (folding it can only raise them). Re-run event-driven-bus on the OpenAI models with
-#   a key, then splice as deepened-v3 was patched from deepened-v2.
-# NOTE: results-mini55.json also contains partial gpt-5.5-pro rows; gpt-5.5-pro is
-#   Responses-API-only (out of scope for the chat-completions runner) and is NOT reported
-#   — excluded from REPORT.md, consistent with RESULTS.md.
+skill_fingerprint: sha256:c3f30e363f88
+provenance: surgical consolidation — nano full suite + event-driven-bus re-run folded into the
+  prior mini/5.5 snapshot; gpt-5.5-pro excluded (Responses-API-only). Intermediates kept:
+  results-nano.json, results-edb-mini55.json, results-mini55.json.

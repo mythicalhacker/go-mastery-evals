@@ -21,8 +21,8 @@ deterministic where it can be and honest about noise where it can't.
 
 - **Net-positive on every model, on both vendors, with zero regressions.** Injecting the skill
   lifts correctness on Anthropic Haiku **+20.0 pp**, Sonnet **+16.7 pp**, Opus **+14.1 pp**, and
-  on OpenAI GPT‑5.4‑mini **+19.3 pp** and GPT‑5.5 **+11.9 pp**. No model got worse on a single
-  case in any run.
+  on OpenAI GPT‑5.4‑nano **+26.3 pp**, GPT‑5.4‑mini **+20.7 pp**, and GPT‑5.5 **+12.6 pp**. No
+  model got worse on a single case in any run.
 - **The lift is corrective, not cosmetic.** On the weakest tier (Haiku) the skill fixes **12 of
   the 15** tasks the base model fails on its own; on the strong tiers it fixes **100%** of the
   few they miss.
@@ -172,20 +172,20 @@ All correctness figures are pass@1 = mean over cases of (samples passed ÷ sampl
 | Anthropic | Haiku (small) | 93.0% | 73.0% | **+20.0 pp** | 12/15 | **0** |
 | Anthropic | Sonnet (medium) | 100.0% | 83.3% | **+16.7 pp** | 9/9 | **0** |
 | Anthropic | Opus (large) | 100.0% | 85.9% | **+14.1 pp** | 8/8 | **0** |
-| OpenAI | GPT‑5.4‑mini (mid) | 96.7% | 77.4% | **+19.3 pp** | 11/12 | **0** |
-| OpenAI | GPT‑5.5 (frontier) | 98.9% | 87.0% | **+11.9 pp** | 7/7 | **0** |
+| OpenAI | GPT‑5.4‑nano (small) | 93.7% | 67.4% | **+26.3 pp** | 15/17 | **0** |
+| OpenAI | GPT‑5.4‑mini (mid) | 98.5% | 77.8% | **+20.7 pp** | 12/12 | **0** |
+| OpenAI | GPT‑5.5 (frontier) | 99.6% | 87.0% | **+12.6 pp** | 7/7 | **0** |
 
 *Corrective fixes* = of the cases the base model fails without the skill, how many the skill
 repairs. The signature is identical across both vendors: biggest lift on the smallest model,
 compressing toward saturation. **The skill is not Claude-specific.**
 
-> **OpenAI provenance, stated plainly.** The mini and GPT‑5.5 rows are computed from
-> `baselines/openai-gpt5/results-mini55.json`. They are *conservative*: that snapshot predates the
-> `event-driven-bus` case fix, which on Anthropic only ever raised the affected case — so
-> consolidating it can move these numbers up, not down. The **smallest** OpenAI tier
-> (GPT‑5.4‑nano) full-suite run and **GPT‑5.5‑pro** are not included here: nano awaits a re-locked
-> baseline, and `gpt-5.5-pro` is served only through OpenAI's Responses API, which the harness's
-> chat-completions runner doesn't target. See Limitations.
+> **OpenAI provenance, stated plainly.** The nano, mini, and GPT‑5.5 rows are computed from the
+> consolidated `baselines/openai-gpt5/results.json` — the GPT‑5.4‑nano full suite plus the post-fix
+> `event-driven-bus` re-run, folded into the prior mini/5.5 snapshot (intermediates kept for audit:
+> `results-nano.json`, `results-edb-mini55.json`, `results-mini55.json`). `gpt-5.5-pro` is
+> **excluded**: it is served only through OpenAI's Responses API, which the harness's
+> chat-completions runner doesn't target.
 
 ### Quality where correctness saturates (deterministic, both-pass cases)
 
@@ -227,9 +227,10 @@ tier and both competitors, **we are never behind on a single case.**
 > skill through the same gate, in minutes. The point of releasing the benchmark is that the
 > leaderboard belongs to everyone, not to us.
 >
-> *Measurement note:* the head-to-head and community comparisons were run at `samples=3` on a
-> prior skill build (`go-mastery` is marginally stronger now), which makes both results
-> conservative. The cross-vendor matrix above is the `samples=5` headline.
+> *Measurement note:* the JetBrains head-to-head is `samples=5` across all three tiers; the
+> community comparison is `samples=3` on Sonnet (53 cases). Both were measured on an earlier
+> `go-mastery` build than the cross-vendor matrix above — the current skill is marginally
+> stronger, so both head-to-heads are conservative.
 
 ### Do-no-harm: external benchmark (Aider polyglot Go, 36 cases)
 
@@ -274,10 +275,9 @@ it.
 
 ## Limitations (stated plainly)
 
-- **OpenAI baseline isn't fully consolidated yet.** mini and GPT‑5.5 are locked and reported;
-  the smallest tier (GPT‑5.4‑nano) needs a re-locked full-suite baseline, and the
-  `event-driven-bus` fix should be folded into the OpenAI snapshot (it can only raise the
-  numbers). `gpt-5.5-pro` is Responses-API-only and out of scope for the current runner.
+- **`gpt-5.5-pro` is out of scope.** It is served only through OpenAI's Responses API, which the
+  harness's chat-completions runner doesn't target, so it is excluded from the OpenAI results. The
+  reported OpenAI tiers — nano, mini, GPT‑5.5 — are fully consolidated (full suite, post-fix).
 - **Quality is a heuristic.** It is presence-based idiom regexes plus lint/gofmt when Go is
   available. It has resolution, not perfection; per-case rubrics sharpen it, and it is deliberately
   conservative (presence, not frequency).
@@ -294,7 +294,7 @@ it.
 ## Artifacts & provenance
 
 - `baselines/deepened-v3/` — Anthropic in-domain, current skill (`c3f30e`), the headline matrix.
-- `baselines/openai-gpt5/` — OpenAI cross-vendor portability (consolidation pending, above).
+- `baselines/openai-gpt5/` — OpenAI cross-vendor portability (nano + mini + GPT‑5.5, consolidated).
 - `baselines/h2h-jetbrains/` — JetBrains head-to-head (competitor injected identically).
 - `baselines/deepened-v2-aider/` — external do-no-harm track.
 - `harness/` — grader, runners, deterministic quality scorer, noise-tolerant compare, unit tests.

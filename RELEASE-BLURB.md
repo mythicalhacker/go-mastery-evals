@@ -24,11 +24,11 @@ toolchain itself** — `go build`, `go vet`, `go test`, `golangci-lint` — plus
 test the model never sees. No LLM-as-judge, no vibes. A case compiles, passes its test, and uses
 the modern idiom, or it doesn't.
 
-The result, measured across **two vendors and five models**:
+The result, measured across **two vendors and six models**:
 
 - **+20.0 / +16.7 / +14.1 pp** correctness on Anthropic Haiku / Sonnet / Opus.
-- **+19.3 / +11.9 pp** on OpenAI GPT‑5.4‑mini / GPT‑5.5 — same direction, same shape, **not
-  Claude-specific**.
+- **+26.3 / +20.7 / +12.6 pp** on OpenAI GPT‑5.4‑nano / GPT‑5.4‑mini / GPT‑5.5 — same direction,
+  same shape, **not Claude-specific**.
 - **Zero regressions** anywhere — no model got worse on a single case in any run.
 - On the weakest model the skill **fixes 12 of the 15** tasks it fails on its own. On the strongest,
   where pass/fail saturates, a deterministic quality score still shows the code is more idiomatic
@@ -53,7 +53,7 @@ it**: `make baseline`. The leaderboard is meant to be public.
 
 **go-mastery** makes models write production-grade, idiomatic Go — and it's *measured*, not
 asserted. An open, toolchain-graded A/B harness (54 Go cases, hidden behavioral tests, hermetic
-grading) shows the skill lifts correctness **+12 to +20 pp on every model of both Anthropic and
+grading) shows the skill lifts correctness **+12 to +26 pp on every model of both Anthropic and
 OpenAI with zero regressions**, and beats every other Go skill we benchmarked — JetBrains
 `go-modern-guidelines` (+6.7/+5.2/+4.5 pp, never behind) and the leading community skill (+6.3 pp).
 The harness ships too: run your own skill through the same gate. → [RESULTS.md](RESULTS.md)
@@ -62,7 +62,7 @@ The harness ships too: run your own skill through the same gate. → [RESULTS.md
 
 ## One-liner
 
-> A Go skill that's verified, not claimed: +12–20 pp correctness across Anthropic *and* OpenAI,
+> A Go skill that's verified, not claimed: +12–26 pp correctness across Anthropic *and* OpenAI,
 > zero regressions, ahead of every other Go skill measured — with the open, toolchain-graded
 > benchmark in the box so anyone can check, or try to beat it.
 
@@ -72,7 +72,7 @@ The harness ships too: run your own skill through the same gate. → [RESULTS.md
 
 > Most Go "best practices" skills ask for trust. We shipped the receipts.
 >
-> go-mastery: +12–20pp correctness across Claude *and* GPT‑5, 0 regressions, beats every other Go
+> go-mastery: +12–26pp correctness across Claude *and* GPT‑5, 0 regressions, beats every other Go
 > skill we tested. Graded by the Go toolchain, not a model.
 >
 > And the benchmark's open — beat it.

@@ -6,10 +6,8 @@
 - **Runner:** openai
 - **Temperature (applied):** 0.0
 - **Samples / (case,variant):** 5
-- **Go toolchain:** go version go1.26.0 darwin/arm64
-- **Skill fingerprint:** sha256:43293a4e71c8 (content)
+- **Skill fingerprint:** sha256:c3f30e363f88 (content)
 - **Cases graded:** 54
-- **Generated (UTC):** 2026-06-30 14:17:37Z
 
 ## Per-case results (passes / samples)
 
@@ -43,7 +41,7 @@
 | encoding-varint | encoding | 5/5 | 5/5 |
 | errors-join-aggregate | errors | 5/5 | 5/5 |
 | errors-wrapping | errors | 5/5 | 5/5 |
-| event-driven-bus | event-driven | 0/5 | 0/5 |
+| event-driven-bus | event-driven | 5/5 | 1/5 |
 | file-io-os-root | file-io | 5/5 | 5/5 |
 | frontier-errors-astype-2 | modernization | 5/5 | 0/5 |
 | generics-filter | generics | 5/5 | 5/5 |
@@ -72,10 +70,10 @@
 
 ## Summary
 
-- **with**: pass@1 97% (53/54 cases pass)
-- **without**: pass@1 77% (42/54 cases pass)
+- **with**: pass@1 99% (54/54 cases pass)
+- **without**: pass@1 78% (42/54 cases pass)
 
-- **Lift (pass@1, with − without): +19.3 pp**
+- **Lift (pass@1, with − without): +20.7 pp**
 
 ## By category
 
@@ -96,7 +94,7 @@
 | ebpf | 100% | 100% | +0 pp |
 | encoding | 100% | 100% | +0 pp |
 | errors | 100% | 100% | +0 pp |
-| event-driven | 0% | 0% | +0 pp |
+| event-driven | 100% | 20% | +80 pp |
 | file-io | 100% | 100% | +0 pp |
 | generics | 100% | 100% | +0 pp |
 | internals | 100% | 100% | +0 pp |

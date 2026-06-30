@@ -15,8 +15,10 @@ crediting their work, not competing with their name in our positioning copy.
 - **What it is:** a single-file modern-Go guidelines skill.
 - **Staged into:** `jetbrains-go-modern/SKILL.md` (git-ignored; fetch the file from the
   upstream path above).
-- **License:** as stated in the upstream repository — see its `LICENSE`. We redistribute
-  none of it; it is fetched and used locally only, for an A/B comparison.
+- **License:** **Apache-2.0** (© 2000–2026 JetBrains s.r.o.) — verified at the upstream
+  `LICENSE`. We redistribute none of it; it's fetched and used locally only for an A/B
+  comparison, which Apache-2.0 permits. Naming the work to describe the comparison's origin is
+  the nominative use Apache-2.0 §6 explicitly allows.
 
 ## Community Go skill — `cc-skills-golang`
 

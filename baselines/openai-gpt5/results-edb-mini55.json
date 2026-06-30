@@ -1,0 +1,920 @@
+{
+  "summary": {
+    "provenance": {
+      "models": "gpt-5.4-mini, gpt-5.5",
+      "runner": "openai",
+      "temperature": 0.0,
+      "samples": 5,
+      "fix_rounds": 2,
+      "go_version": "go version go1.26.0 darwin/arm64",
+      "skill_fingerprint": "sha256:c3f30e363f88 (content)",
+      "timestamp_utc": "2026-06-30 20:25:26Z"
+    },
+    "models": {
+      "gpt-5.4-mini": {
+        "metrics": {
+          "n_cases": 1,
+          "with_pass_at_1": 1.0,
+          "without_pass_at_1": 0.2,
+          "lift_pp": 80.0,
+          "corrective_fixed": 1,
+          "corrective_of": 1,
+          "corrective_rate": 1.0,
+          "regression_count": 0,
+          "regression_ids": [],
+          "competitor_n": 0,
+          "competitor_pass_at_1": null,
+          "with_over_competitor_p1": null,
+          "vs_competitor_pp": null,
+          "ours_only_ids": [],
+          "theirs_only_ids": []
+        },
+        "per_case": {
+          "event-driven-bus": {
+            "with": {
+              "pass": 5,
+              "n": 5
+            },
+            "without": {
+              "pass": 1,
+              "n": 5
+            }
+          }
+        }
+      },
+      "gpt-5.5": {
+        "metrics": {
+          "n_cases": 1,
+          "with_pass_at_1": 1.0,
+          "without_pass_at_1": 1.0,
+          "lift_pp": 0.0,
+          "corrective_fixed": 0,
+          "corrective_of": 0,
+          "corrective_rate": null,
+          "regression_count": 0,
+          "regression_ids": [],
+          "competitor_n": 0,
+          "competitor_pass_at_1": null,
+          "with_over_competitor_p1": null,
+          "vs_competitor_pp": null,
+          "ours_only_ids": [],
+          "theirs_only_ids": []
+        },
+        "per_case": {
+          "event-driven-bus": {
+            "with": {
+              "pass": 5,
+              "n": 5
+            },
+            "without": {
+              "pass": 5,
+              "n": 5
+            }
+          }
+        }
+      }
+    }
+  },
+  "results": [
+    {
+      "case_id": "event-driven-bus",
+      "variant": "with",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.440s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 901,
+      "sample": 0,
+      "source": "gpt-5.4-mini:with+fix0",
+      "model": "gpt-5.4-mini",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "with",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.370s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 1047,
+      "sample": 1,
+      "source": "gpt-5.4-mini:with+fix0",
+      "model": "gpt-5.4-mini",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "with",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.442s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 1044,
+      "sample": 2,
+      "source": "gpt-5.4-mini:with+fix0",
+      "model": "gpt-5.4-mini",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "with",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.414s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 1044,
+      "sample": 3,
+      "source": "gpt-5.4-mini:with+fix0",
+      "model": "gpt-5.4-mini",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "with",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.417s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 896,
+      "sample": 4,
+      "source": "gpt-5.4-mini:with+fix0",
+      "model": "gpt-5.4-mini",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "without",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.442s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 1166,
+      "sample": 0,
+      "source": "gpt-5.4-mini:without+fix0",
+      "model": "gpt-5.4-mini",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "without",
+      "passed": false,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": false,
+          "required": true,
+          "detail": "--- FAIL: TestPublishReachesAllSubscribers (2.00s)\n    solution_test.go:37: timed out waiting for s1 message\nFAIL\nFAIL\tevalcase\t2.446s\nFAIL"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 1159,
+      "sample": 1,
+      "source": "gpt-5.4-mini:without+fix0",
+      "model": "gpt-5.4-mini",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "without",
+      "passed": false,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": false,
+          "required": true,
+          "detail": "--- FAIL: TestPublishReachesAllSubscribers (2.00s)\n    solution_test.go:37: timed out waiting for s1 message\nFAIL\nFAIL\tevalcase\t2.407s\nFAIL"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 1159,
+      "sample": 2,
+      "source": "gpt-5.4-mini:without+fix0",
+      "model": "gpt-5.4-mini",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "without",
+      "passed": false,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": false,
+          "required": true,
+          "detail": "--- FAIL: TestPublishReachesAllSubscribers (2.00s)\n    solution_test.go:37: timed out waiting for s1 message\nFAIL\nFAIL\tevalcase\t2.463s\nFAIL"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 1023,
+      "sample": 3,
+      "source": "gpt-5.4-mini:without+fix0",
+      "model": "gpt-5.4-mini",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "without",
+      "passed": false,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": false,
+          "required": true,
+          "detail": "--- FAIL: TestPublishReachesAllSubscribers (2.00s)\n    solution_test.go:37: timed out waiting for s1 message\nFAIL\nFAIL\tevalcase\t2.376s\nFAIL"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 1140,
+      "sample": 4,
+      "source": "gpt-5.4-mini:without+fix0",
+      "model": "gpt-5.4-mini",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "with",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.450s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 2209,
+      "sample": 0,
+      "source": "gpt-5.5:with+fix0",
+      "model": "gpt-5.5",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "with",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.451s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 2351,
+      "sample": 1,
+      "source": "gpt-5.5:with+fix0",
+      "model": "gpt-5.5",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "with",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.441s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 2296,
+      "sample": 2,
+      "source": "gpt-5.5:with+fix0",
+      "model": "gpt-5.5",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "with",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.485s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 2120,
+      "sample": 3,
+      "source": "gpt-5.5:with+fix0",
+      "model": "gpt-5.5",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "with",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.452s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 2273,
+      "sample": 4,
+      "source": "gpt-5.5:with+fix0",
+      "model": "gpt-5.5",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "without",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.476s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 2394,
+      "sample": 0,
+      "source": "gpt-5.5:without+fix0",
+      "model": "gpt-5.5",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "without",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.477s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 2597,
+      "sample": 1,
+      "source": "gpt-5.5:without+fix0",
+      "model": "gpt-5.5",
+      "fix_rounds_used": 0
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "without",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.464s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 3067,
+      "sample": 2,
+      "source": "gpt-5.5:without+fix1",
+      "model": "gpt-5.5",
+      "fix_rounds_used": 1
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "without",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.462s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 2425,
+      "sample": 3,
+      "source": "gpt-5.5:without+fix1",
+      "model": "gpt-5.5",
+      "fix_rounds_used": 1
+    },
+    {
+      "case_id": "event-driven-bus",
+      "variant": "without",
+      "passed": true,
+      "checks": [
+        {
+          "name": "gofmt",
+          "passed": true,
+          "required": true,
+          "detail": "rc=0"
+        },
+        {
+          "name": "vet",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "build",
+          "passed": true,
+          "required": true,
+          "detail": ""
+        },
+        {
+          "name": "test",
+          "passed": true,
+          "required": true,
+          "detail": "ok  \tevalcase\t0.433s"
+        },
+        {
+          "name": "lint",
+          "passed": true,
+          "required": false,
+          "detail": "golangci-lint skipped: golangci-lint not installed \u2014 install it for the full gate"
+        }
+      ],
+      "code_len": 2467,
+      "sample": 4,
+      "source": "gpt-5.5:without+fix0",
+      "model": "gpt-5.5",
+      "fix_rounds_used": 0
+    }
+  ]
+}
