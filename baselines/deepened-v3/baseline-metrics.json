@@ -1,0 +1,1628 @@
+{
+  "claude-haiku-4-5-20251001": {
+    "ai-ml-gonum-stat": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "api-iter-ordered": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "cgo-c-interop": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "cli-flagset-subcommand": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "cloudnative-reconcile-configmap": {
+      "with": {
+        "pass_rate": 0.8,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-bounded-parallelism": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-deadline-propagation": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-detach-context": {
+      "with": {
+        "pass_rate": 0.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "concurrency-oncevalues": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-pipeline-cancel": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-search-leak": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-select-done": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-worker-ctx": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-concurrent-map": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-lost-update": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-parsesize": {
+      "with": {
+        "pass_rate": 0.2,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "correctness-slice-aliasing": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-time-equal": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "database-valuer-scanner": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "datastructures-heap": {
+      "with": {
+        "pass_rate": 0.6,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "debugging-all-goroutine-stacks": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "design-iter-seq": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "distributed-consistent-hash": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "ebpf-current-api": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "encoding-json-number": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "encoding-varint": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "errors-join-aggregate": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "errors-wrapping": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "event-driven-bus": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.4,
+        "quality": null
+      }
+    },
+    "file-io-os-root": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "frontier-errors-astype-2": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "generics-filter": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "grpc-interceptor-codes": {
+      "with": {
+        "pass_rate": 0.6,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "http-timeouts": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "internals-runtime-metrics": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "mcp-current-sdk": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-clear-builtin": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-errors-astype": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-maps-clone": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-maps-iter": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-new-expr": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-omitzero": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-rand-v2": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-range-int": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-slices-contains": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-waitgroup-go": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "networking-netip": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "niche-singleflight": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "observability-otel-span": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "observability-slog-redaction": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "performance-pool-reset": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "security-html-escaping": {
+      "with": {
+        "pass_rate": 0.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "security-sql-injection": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "wasm-wasip1-build": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    }
+  },
+  "claude-opus-4-8": {
+    "ai-ml-gonum-stat": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "api-iter-ordered": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "cgo-c-interop": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "cli-flagset-subcommand": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "cloudnative-reconcile-configmap": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-bounded-parallelism": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-deadline-propagation": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-detach-context": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "concurrency-oncevalues": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-pipeline-cancel": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-search-leak": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-select-done": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-worker-ctx": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-concurrent-map": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-lost-update": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-parsesize": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-slice-aliasing": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-time-equal": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "database-valuer-scanner": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "datastructures-heap": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "debugging-all-goroutine-stacks": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "design-iter-seq": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "distributed-consistent-hash": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "ebpf-current-api": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "encoding-json-number": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "encoding-varint": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "errors-join-aggregate": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "errors-wrapping": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "event-driven-bus": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.4,
+        "quality": null
+      }
+    },
+    "file-io-os-root": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "frontier-errors-astype-2": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "generics-filter": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "grpc-interceptor-codes": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "http-timeouts": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "internals-runtime-metrics": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "mcp-current-sdk": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-clear-builtin": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-errors-astype": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-maps-clone": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-maps-iter": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-new-expr": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-omitzero": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-rand-v2": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-range-int": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-slices-contains": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-waitgroup-go": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "networking-netip": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "niche-singleflight": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "observability-otel-span": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "observability-slog-redaction": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "performance-pool-reset": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "security-html-escaping": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "security-sql-injection": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "wasm-wasip1-build": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    }
+  },
+  "claude-sonnet-4-6": {
+    "ai-ml-gonum-stat": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "api-iter-ordered": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "cgo-c-interop": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "cli-flagset-subcommand": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "cloudnative-reconcile-configmap": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-bounded-parallelism": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-deadline-propagation": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-detach-context": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "concurrency-oncevalues": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-pipeline-cancel": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-search-leak": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-select-done": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "concurrency-worker-ctx": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-concurrent-map": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-lost-update": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-parsesize": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "correctness-slice-aliasing": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "correctness-time-equal": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "database-valuer-scanner": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "datastructures-heap": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "debugging-all-goroutine-stacks": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "design-iter-seq": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "distributed-consistent-hash": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "ebpf-current-api": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "encoding-json-number": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "encoding-varint": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "errors-join-aggregate": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "errors-wrapping": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "event-driven-bus": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "file-io-os-root": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "frontier-errors-astype-2": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "generics-filter": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "grpc-interceptor-codes": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "http-timeouts": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "internals-runtime-metrics": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "mcp-current-sdk": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-clear-builtin": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-errors-astype": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-maps-clone": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-maps-iter": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-new-expr": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "modern-omitzero": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-rand-v2": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-range-int": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-slices-contains": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "modern-waitgroup-go": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "networking-netip": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": null
+      }
+    },
+    "niche-singleflight": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "observability-otel-span": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "observability-slog-redaction": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "performance-pool-reset": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "security-html-escaping": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "security-sql-injection": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    },
+    "wasm-wasip1-build": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": null
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": null
+      }
+    }
+  }
+}

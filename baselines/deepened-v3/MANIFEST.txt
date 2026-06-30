@@ -1,0 +1,16 @@
+version: deepened-v3
+generated: 2026-06-30T17:16:11Z
+skill_fingerprint: sha256:c3f30e363f88 (content)
+provenance: deepened-v2 (43293a4e) + event-driven-bus re-run on c3f30e.
+  Only event-driven.md changed; event-driven-bus is the ONLY case routing to it,
+  so every other case's injected context is byte-identical to deepened-v2 and its
+  results carry forward unchanged. No full re-run required.
+models: claude-haiku-4-5-20251001, claude-sonnet-4-6, claude-opus-4-8
+samples: 5  fix_rounds: 2
+quality_provenance: quality both-pass figures in RESULTS.md derive from deepened-v2
+  (its baseline-metrics.json + quality REPORT*.md). Idiom signals are byte-identical
+  v2->v3 (only event-driven-bus correctness changed, which routes to event-driven.md
+  alone), so the quality numbers carry forward unchanged.
+baseline-metrics.json: generated from this dir's results.json (pass_rate vector;
+  quality is null here because raw/ is not snapshotted — see deepened-v2 for quality).
+go: go version go1.26.0 darwin/arm64

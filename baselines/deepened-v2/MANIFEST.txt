@@ -1,0 +1,7 @@
+version: deepened-v2
+generated: 2026-06-29T22:40:57Z
+models: claude-haiku-4-5-20251001,claude-sonnet-4-6,claude-opus-4-8
+samples: 5  fix_rounds: 2
+skill_fingerprint: - **Skill fingerprint:** sha256:43293a4e71c8 (content)
+git: n/a
+go: go version go1.26.0 darwin/arm64

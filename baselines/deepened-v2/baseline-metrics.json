@@ -1,0 +1,3010 @@
+{
+  "claude-haiku-4-5-20251001": {
+    "ai-ml-gonum-stat": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "aider-alphametics": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-beer-song": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-book-store": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-bottle-song": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-bowling": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-connect": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-crypto-square": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-dnd-character": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-dominoes": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-error-handling": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-food-chain": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-forth": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-hexadecimal": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-kindergarten-garden": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-matrix": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-octal": {
+      "with": {
+        "pass_rate": null,
+        "quality": -1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": -1
+      }
+    },
+    "aider-paasio": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-palindrome-products": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-pig-latin": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-poker": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-pov": {
+      "with": {
+        "pass_rate": null,
+        "quality": -1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-protein-translation": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-react": {
+      "with": {
+        "pass_rate": null,
+        "quality": -1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": -1
+      }
+    },
+    "aider-robot-simulator": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-say": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-scale-generator": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-simple-linked-list": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-sublist": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-transpose": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-tree-building": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-trinary": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-two-bucket": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-variable-length-quantity": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-word-search": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-wordy": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-zebra-puzzle": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "api-iter-ordered": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "cgo-c-interop": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "cli-flagset-subcommand": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0.8
+      }
+    },
+    "cloudnative-reconcile-configmap": {
+      "with": {
+        "pass_rate": 0.8,
+        "quality": 2
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 2
+      }
+    },
+    "concurrency-bounded-parallelism": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "concurrency-deadline-propagation": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-detach-context": {
+      "with": {
+        "pass_rate": 0.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "concurrency-oncevalues": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "concurrency-pipeline-cancel": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-search-leak": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "concurrency-select-done": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-worker-ctx": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "correctness-concurrent-map": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "correctness-json-number": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": -1
+      }
+    },
+    "correctness-lost-update": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "correctness-parsesize": {
+      "with": {
+        "pass_rate": 0.2,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "correctness-slice-aliasing": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "correctness-time-equal": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "database-valuer-scanner": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "datastructures-heap": {
+      "with": {
+        "pass_rate": 0.6,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "debugging-all-goroutine-stacks": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "design-iter-seq": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "distributed-consistent-hash": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "ebpf-current-api": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "encoding-json-number": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "encoding-varint": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "errors-join-aggregate": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "errors-wrapping": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "event-driven-bus": {
+      "with": {
+        "pass_rate": 0.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.4,
+        "quality": 0
+      }
+    },
+    "file-io-os-root": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 2
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "frontier-errors-astype-2": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "frontier-weak-cache": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "generics-filter": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "grpc-interceptor-codes": {
+      "with": {
+        "pass_rate": 0.6,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "http-timeouts": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 3
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 2
+      }
+    },
+    "internals-runtime-metrics": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "io-osroot": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0.2
+      }
+    },
+    "mcp-current-sdk": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": -0.2
+      }
+    },
+    "modern-clear-builtin": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "modern-errors-astype": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "modern-maps-clone": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "modern-maps-iter": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "modern-new-expr": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "modern-omitzero": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "modern-rand-v2": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "modern-range-int": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "modern-slices-contains": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "modern-waitgroup-go": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "networking-netip": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "niche-singleflight": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "observability-otel-span": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "observability-slog-redaction": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "performance-pool-reset": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "security-html-escaping": {
+      "with": {
+        "pass_rate": 0.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "security-sql-injection": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 4
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 2
+      }
+    },
+    "wasm-wasip1-build": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    }
+  },
+  "claude-opus-4-8": {
+    "ai-ml-gonum-stat": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "aider-alphametics": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-beer-song": {
+      "with": {
+        "pass_rate": null,
+        "quality": -0.3333333333333333
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-book-store": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-bottle-song": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-bowling": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-connect": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-crypto-square": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-dnd-character": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-dominoes": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-error-handling": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-food-chain": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-forth": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-hexadecimal": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-kindergarten-garden": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-matrix": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-octal": {
+      "with": {
+        "pass_rate": null,
+        "quality": -0.3333333333333333
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-paasio": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-palindrome-products": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-pig-latin": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-poker": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-pov": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-protein-translation": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 1
+      }
+    },
+    "aider-react": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-robot-simulator": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-say": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-scale-generator": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-simple-linked-list": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-sublist": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-transpose": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-tree-building": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-trinary": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-two-bucket": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-variable-length-quantity": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-word-search": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-wordy": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-zebra-puzzle": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "api-iter-ordered": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "cgo-c-interop": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "cli-flagset-subcommand": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "cloudnative-reconcile-configmap": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 3
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-bounded-parallelism": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "concurrency-deadline-propagation": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-detach-context": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 2
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "concurrency-oncevalues": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "concurrency-pipeline-cancel": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-search-leak": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "concurrency-select-done": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-worker-ctx": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "correctness-concurrent-map": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0.4
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "correctness-json-number": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0.4
+      }
+    },
+    "correctness-lost-update": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "correctness-parsesize": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0.2
+      }
+    },
+    "correctness-slice-aliasing": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0.2
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "correctness-time-equal": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "database-valuer-scanner": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "datastructures-heap": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "debugging-all-goroutine-stacks": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "design-iter-seq": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "distributed-consistent-hash": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "ebpf-current-api": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "encoding-json-number": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "encoding-varint": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "errors-join-aggregate": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1.8
+      }
+    },
+    "errors-wrapping": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "event-driven-bus": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.4,
+        "quality": 0
+      }
+    },
+    "file-io-os-root": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0.4
+      }
+    },
+    "frontier-errors-astype-2": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "frontier-weak-cache": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "generics-filter": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "grpc-interceptor-codes": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 2
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "http-timeouts": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 3
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 3
+      }
+    },
+    "internals-runtime-metrics": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "io-osroot": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1.2
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 1
+      }
+    },
+    "mcp-current-sdk": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "modern-clear-builtin": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "modern-errors-astype": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "modern-maps-clone": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "modern-maps-iter": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "modern-new-expr": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "modern-omitzero": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "modern-rand-v2": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "modern-range-int": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "modern-slices-contains": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "modern-waitgroup-go": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "networking-netip": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "niche-singleflight": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -0.8
+      }
+    },
+    "observability-otel-span": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "observability-slog-redaction": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "performance-pool-reset": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "security-html-escaping": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "security-sql-injection": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 4
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 2.2
+      }
+    },
+    "wasm-wasip1-build": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    }
+  },
+  "claude-sonnet-4-6": {
+    "ai-ml-gonum-stat": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "aider-alphametics": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-beer-song": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-book-store": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-bottle-song": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-bowling": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-connect": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-crypto-square": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-dnd-character": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-dominoes": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-error-handling": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-food-chain": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-forth": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-hexadecimal": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-kindergarten-garden": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-matrix": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-octal": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": -1
+      }
+    },
+    "aider-paasio": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-palindrome-products": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-pig-latin": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-poker": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-pov": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-protein-translation": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-react": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-robot-simulator": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-say": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-scale-generator": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-simple-linked-list": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-sublist": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-transpose": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-tree-building": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-trinary": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-two-bucket": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-variable-length-quantity": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-word-search": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-wordy": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "aider-zebra-puzzle": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "api-iter-ordered": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0.6666666666666666
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0.8
+      }
+    },
+    "cgo-c-interop": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "cli-flagset-subcommand": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "cloudnative-reconcile-configmap": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 3
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 2
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-bounded-parallelism": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "concurrency-deadline-propagation": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-detach-context": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 2
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "concurrency-oncevalues": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "concurrency-pipeline-cancel": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-search-leak": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "concurrency-select-done": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "concurrency-worker-ctx": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "correctness-concurrent-map": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "correctness-json-number": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "correctness-lost-update": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "correctness-parsesize": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0.8
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "correctness-slice-aliasing": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "correctness-time-equal": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "database-valuer-scanner": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "datastructures-heap": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "debugging-all-goroutine-stacks": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "design-iter-seq": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "distributed-consistent-hash": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "ebpf-current-api": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "encoding-json-number": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0.2
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "encoding-varint": {
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "errors-join-aggregate": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "errors-wrapping": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "event-driven-bus": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "file-io-os-root": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1.3333333333333333
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "frontier-errors-astype-2": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "frontier-weak-cache": {
+      "with": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 0
+      }
+    },
+    "generics-filter": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "grpc-interceptor-codes": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 2
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 2
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "http-timeouts": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 3
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 3
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 3
+      }
+    },
+    "internals-runtime-metrics": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "io-osroot": {
+      "with": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": null,
+        "quality": 1
+      }
+    },
+    "mcp-current-sdk": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 2
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "modern-clear-builtin": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "modern-errors-astype": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "modern-maps-clone": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0.6666666666666666
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "modern-maps-iter": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "modern-new-expr": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "modern-omitzero": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "modern-rand-v2": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "modern-range-int": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "modern-slices-contains": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "modern-waitgroup-go": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 0
+      }
+    },
+    "networking-netip": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 0.0,
+        "quality": 1
+      }
+    },
+    "niche-singleflight": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    },
+    "observability-otel-span": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "observability-slog-redaction": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 1
+      }
+    },
+    "performance-pool-reset": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": -1
+      }
+    },
+    "security-html-escaping": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 1
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 1
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0.6
+      }
+    },
+    "security-sql-injection": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 4
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 4
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 2
+      }
+    },
+    "wasm-wasip1-build": {
+      "competitor": {
+        "pass_rate": null,
+        "quality": 0
+      },
+      "with": {
+        "pass_rate": 1.0,
+        "quality": 0
+      },
+      "without": {
+        "pass_rate": 1.0,
+        "quality": 0
+      }
+    }
+  }
+}
