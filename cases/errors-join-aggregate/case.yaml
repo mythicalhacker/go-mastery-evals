@@ -1,0 +1,13 @@
+id: errors-join-aggregate
+title: Aggregate multiple errors so each stays matchable (errors.Join)
+category: errors
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [errors-and-resilience.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+weight: 1

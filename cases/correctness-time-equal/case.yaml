@@ -1,0 +1,13 @@
+id: correctness-time-equal
+title: Compare time instants correctly
+category: correctness
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [style-synthesis.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+weight: 1

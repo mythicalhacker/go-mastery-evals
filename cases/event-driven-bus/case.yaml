@@ -1,0 +1,13 @@
+id: event-driven-bus
+title: "In-process pub/sub — non-blocking publish, no drops"
+category: event-driven
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [event-driven.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+weight: 1

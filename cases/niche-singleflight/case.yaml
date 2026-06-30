@@ -1,0 +1,13 @@
+id: niche-singleflight
+title: Coalesce concurrent same-key lookups
+category: concurrency
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [concurrency.md, data-structures-and-caching.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+weight: 1

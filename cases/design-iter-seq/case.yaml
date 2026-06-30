@@ -1,0 +1,16 @@
+id: design-iter-seq
+title: Range-over-func iterator that honors early termination
+category: design
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [design-patterns.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_not_match: both a correct and an incorrect iterator compile and vet
+  # cleanly; the early-break behavior test decides. The bad version panics at
+  # runtime when the consumer stops early.
+weight: 1

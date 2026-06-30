@@ -1,0 +1,17 @@
+id: grpc-interceptor-codes
+title: gRPC unary interceptor — panic recovery + context→status codes
+category: distributed-systems
+go_version: "1.26"
+package: solution
+filename: solution.go
+module_template: ext
+skill_refs: [distributed-systems.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'grpc\.UnaryServerInfo'
+    - 'codes\.'
+weight: 1

@@ -1,0 +1,15 @@
+id: observability-slog-redaction
+title: Redact secrets in logs via slog.LogValuer
+category: observability
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [observability.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'LogValue'
+weight: 1

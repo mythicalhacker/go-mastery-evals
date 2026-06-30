@@ -1,0 +1,16 @@
+id: database-valuer-scanner
+title: Custom SQL type via Valuer and Scanner
+category: database
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [database.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'driver\.Value'
+    - 'func \(t \*?Tags\) Scan\('
+weight: 1

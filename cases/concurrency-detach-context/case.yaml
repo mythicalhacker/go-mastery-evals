@@ -1,0 +1,22 @@
+id: concurrency-detach-context
+title: Detach a context (keep values, drop cancellation)
+category: concurrency
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [concurrency.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'context\.WithoutCancel'
+# Per-case quality rubric (adds to the global rubric). Rewards the detach idiom;
+# penalizes context.Background() in the detached path (drops the parent's values).
+quality_signals:
+  positive:
+    - {pattern: 'context\.WithoutCancel\(', label: "WithoutCancel"}
+  negative:
+    - {pattern: 'context\.Background\(', label: "Background in detach path"}
+weight: 1

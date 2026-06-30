@@ -1,0 +1,16 @@
+id: encoding-json-number
+title: Decode a large JSON integer without precision loss
+category: encoding
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [encoding-and-serialization.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_not_match: an int64 struct field AND json.Number/UseNumber are all
+  # correct; the behavioral exact-value test decides. Decoding into a float64
+  # (via map[string]any) silently rounds at 2^53 and fails the test.
+weight: 1

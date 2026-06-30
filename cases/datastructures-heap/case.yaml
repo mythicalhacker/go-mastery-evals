@@ -1,0 +1,17 @@
+id: datastructures-heap
+title: K smallest with a container/heap min-heap
+category: data-structures
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [data-structures-and-caching.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_match/must_not_match: a min-heap via container/heap is the intended
+  # approach, but the behavioral test (ascending k smallest) is what decides.
+  # A max-heap still implements heap.Interface and compiles, so it must fail
+  # on results, not on a regex.
+weight: 1

@@ -1,0 +1,16 @@
+id: ai-ml-gonum-stat
+title: gonum stat — mean and sample stddev
+category: ai-ml-beyond-llm
+go_version: "1.26"
+package: solution
+filename: solution.go
+module_template: ext
+skill_refs: [ai-ml-beyond-llm.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'gonum\.org/v1/gonum/stat'
+weight: 1

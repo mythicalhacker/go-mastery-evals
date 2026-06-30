@@ -1,0 +1,17 @@
+id: modern-range-int
+title: Count loop (range over int)
+category: modernization
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [modern-go.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'range\s+n\b'
+  must_not_match:
+    - 'i\s*:=\s*0;\s*i\s*<'
+weight: 1

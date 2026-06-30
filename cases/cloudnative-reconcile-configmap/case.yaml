@@ -1,0 +1,17 @@
+id: cloudnative-reconcile-configmap
+title: Idempotent client-go ConfigMap reconcile (create/update/no-op)
+category: cloud-native
+go_version: "1.26"
+package: solution
+filename: solution.go
+module_template: ext
+skill_refs: [cloud-native.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'kubernetes\.Interface'
+    - 'IsNotFound'
+weight: 1

@@ -1,0 +1,17 @@
+id: debugging-all-goroutine-stacks
+title: Dump ALL goroutine stacks, not just the caller's
+category: debugging
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [debugging-and-diagnostics.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'runtime\.Stack'
+  must_not_match:
+    - 'debug\.Stack|debug\.PrintStack'
+weight: 1

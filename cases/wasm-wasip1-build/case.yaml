@@ -1,0 +1,14 @@
+id: wasm-wasip1-build
+title: WASI (wasip1) build — syscall/js is js-only
+category: wasm-and-embedded
+go_version: "1.26"
+package: solution
+filename: solution.go
+goos: wasip1
+goarch: wasm
+skill_refs: [wasm-and-embedded.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+weight: 1

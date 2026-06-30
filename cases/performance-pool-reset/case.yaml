@@ -1,0 +1,15 @@
+id: performance-pool-reset
+title: sync.Pool buffers must be reset before reuse
+category: performance
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [performance.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'sync\.Pool'
+weight: 1

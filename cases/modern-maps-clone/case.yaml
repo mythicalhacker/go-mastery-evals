@@ -1,0 +1,15 @@
+id: modern-maps-clone
+title: Independent map copy with maps.Clone
+category: data-structures
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [modern-go.md, data-structures-and-caching.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_match: maps.Clone AND an explicit make+range copy are both
+  # correct; the copy-independence test decides.
+weight: 1

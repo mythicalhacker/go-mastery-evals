@@ -1,0 +1,15 @@
+id: file-io-os-root
+title: Path-traversal-safe file read confined to a directory
+category: file-io
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [file-io.md, security.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_not_match: filepath.Join + os.ReadFile and a directory-confined
+  # read both compile and look plausible; the behavioral traversal test decides.
+weight: 1

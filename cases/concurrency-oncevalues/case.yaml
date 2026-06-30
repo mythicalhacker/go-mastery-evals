@@ -1,0 +1,16 @@
+id: concurrency-oncevalues
+title: Memoize an initializer that runs once under concurrency
+category: concurrency
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [concurrency.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_not_match: sync.OnceValues is the idiomatic answer, but a correct
+  # sync.Once / RWMutex memoization would also pass; the behavioral once-under-
+  # concurrency test (calls == 1) decides.
+weight: 1

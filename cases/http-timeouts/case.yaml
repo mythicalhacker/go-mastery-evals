@@ -1,0 +1,25 @@
+id: http-timeouts
+title: Hardened http.Server (timeouts)
+category: api-design
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [http-and-apis.md, security.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  must_match:
+    - 'ReadTimeout'
+    - 'WriteTimeout'
+    - 'IdleTimeout'
+# Per-case quality rubric (adds to the global rubric). Rewards configured timeouts;
+# penalizes serving via raw http.ListenAndServe (no *http.Server to set timeouts on).
+quality_signals:
+  positive:
+    - {pattern: 'ReadTimeout', label: "ReadTimeout"}
+    - {pattern: 'WriteTimeout', label: "WriteTimeout"}
+    - {pattern: 'ReadHeaderTimeout', label: "ReadHeaderTimeout"}
+  negative:
+    - {pattern: 'http\.ListenAndServe\(', label: "raw ListenAndServe (no configured *http.Server)"}
+weight: 1

@@ -1,0 +1,15 @@
+id: modern-new-expr
+title: Allocate pointer fields from copies of values
+category: modernization
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [modern-go.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'new\((?![A-Z\s])'
+weight: 1

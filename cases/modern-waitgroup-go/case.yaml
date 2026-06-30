@@ -1,0 +1,18 @@
+id: modern-waitgroup-go
+title: Concurrent fan-out (sync.WaitGroup.Go)
+category: modernization
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [modern-go.md, concurrency.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - '\.Go\(func'
+  must_not_match:
+    - 'wg\.Add\('
+    - '\.Done\(\)'
+weight: 1

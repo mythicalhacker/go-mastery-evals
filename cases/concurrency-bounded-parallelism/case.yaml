@@ -1,0 +1,15 @@
+id: concurrency-bounded-parallelism
+title: Bounded parallelism with a stdlib semaphore
+category: concurrency
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [concurrency.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_not_match: a stdlib semaphore (buffered channel) AND
+  # errgroup.SetLimit are both correct; the behavioral limit test decides.
+weight: 1

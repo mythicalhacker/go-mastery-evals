@@ -1,0 +1,13 @@
+id: encoding-varint
+title: "LEB128 / protobuf varint encode + decode (encoding/binary)"
+category: encoding
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs:
+  - encoding-and-serialization.md
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true

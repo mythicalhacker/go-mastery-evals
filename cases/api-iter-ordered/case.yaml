@@ -1,0 +1,16 @@
+id: api-iter-ordered
+title: Ordered range-over-func iteration over an internal map
+category: api-design
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [api-design.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_not_match: yielding sorted keys is the only correct behavior, but
+  # there are several valid spellings (slices.Sort, sort.Strings, a sorted
+  # slice of pairs). The deterministic-order test is the discriminator.
+weight: 1

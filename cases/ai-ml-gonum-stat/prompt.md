@@ -1,0 +1,1 @@
+Implement `MeanStd(xs []float64) (mean, std float64)` returning the arithmetic mean and the (sample) standard deviation of `xs`, using gonum's `stat` package (`gonum.org/v1/gonum/stat`). Output only the Go code.

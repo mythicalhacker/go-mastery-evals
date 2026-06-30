@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE / assistant
+.idea/
+.junie/
+
+# Internal logs + process/scaffolding notes — not part of the public benchmark
+logs/
+dev-notes/
+
+# Generated model outputs and run results (keep the dirs, ignore contents)
+outputs/*
+!outputs/.gitkeep
+!outputs/prompts/
+outputs/prompts/*
+!outputs/prompts/.gitkeep
+results/*
+!results/.gitkeep
+
+# Competitor skills are STAGED locally, never redistributed here.
+# Re-stage with harness/competitors/stage_community.py (see PROVENANCE.md for upstreams).
+harness/competitors/_community-src/
+harness/competitors/community-go/
+harness/competitors/jetbrains-go-modern/
+
+# Aider external track: raw clone + generated cases (re-stage with harness/external/stage_aider.py)
+harness/external/_aider-src/
+cases-aider/

@@ -1,0 +1,1 @@
+Implement `HeapObjectsBytes() uint64` returning the current bytes of allocated heap objects. Use the `runtime/metrics` package — do NOT use `runtime.ReadMemStats` (it stops the world). Output only the Go code.

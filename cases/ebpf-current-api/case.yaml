@@ -1,0 +1,17 @@
+id: ebpf-current-api
+title: cilium/ebpf — current map-creation API (no removed symbols)
+category: ebpf
+go_version: "1.26"
+package: solution
+filename: solution.go
+module_template: ext
+goos: linux
+goarch: amd64
+skill_refs: [ebpf.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  must_match:
+    - 'ebpf\.NewMap'
+weight: 1

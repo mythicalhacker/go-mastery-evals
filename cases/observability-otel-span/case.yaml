@@ -1,0 +1,16 @@
+id: observability-otel-span
+title: OpenTelemetry span — created, attributed, and ended
+category: observability
+go_version: "1.26"
+package: solution
+filename: solution.go
+module_template: ext
+skill_refs: [observability.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'otel\.Tracer'
+weight: 1

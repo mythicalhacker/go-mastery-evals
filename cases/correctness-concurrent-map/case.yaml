@@ -1,0 +1,14 @@
+id: correctness-concurrent-map
+title: Synchronize concurrent writes to a shared map
+category: correctness
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [concurrency.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  race: false
+weight: 1

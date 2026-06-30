@@ -1,0 +1,17 @@
+id: internals-runtime-metrics
+title: runtime/metrics over ReadMemStats
+category: internals
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [internals.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'runtime/metrics'
+  must_not_match:
+    - 'ReadMemStats'
+weight: 1

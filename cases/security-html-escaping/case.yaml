@@ -1,0 +1,17 @@
+id: security-html-escaping
+title: Contextual HTML escaping (no XSS)
+category: security
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [security.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'html/template'
+  must_not_match:
+    - 'text/template'
+weight: 1

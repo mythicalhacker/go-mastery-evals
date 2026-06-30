@@ -1,0 +1,27 @@
+id: security-sql-injection
+title: Parameterized SQL (no injection)
+category: security
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [security.md, database.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  must_match:
+    - 'QueryRowContext|QueryRow|QueryContext'
+    - '\$1|\?'
+  must_not_match:
+    - 'fmt\.Sprintf'
+    - '\+\s*email'
+# Per-case quality rubric (adds to the global rubric). Rewards placeholder params;
+# penalizes building the SQL string with Sprintf or concatenation (injection vector).
+quality_signals:
+  positive:
+    - {pattern: '=\s*\$\d', label: "placeholder $N"}
+    - {pattern: '=\s*\?', label: "placeholder ?"}
+  negative:
+    - {pattern: 'fmt\.Sprintf', label: "Sprintf builds query"}
+    - {pattern: '"[^"]*"\s*\+', label: "string-concat query"}
+weight: 1

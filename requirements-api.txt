@@ -1,0 +1,4 @@
+# Optional SDKs for the automated API runners (--runner anthropic|openai).
+# Not needed for --selftest or --runner byo.
+anthropic>=0.40.0
+openai>=1.40.0

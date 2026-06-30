@@ -1,0 +1,13 @@
+id: correctness-parsesize
+title: ParseSize (behavioral correctness)
+category: correctness
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: []
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+weight: 1

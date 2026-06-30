@@ -1,0 +1,17 @@
+id: frontier-errors-astype-2
+title: Typed error extraction from a wrapped chain (value receiver)
+category: modernization
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [modern-go.md, errors-and-resilience.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'errors\.AsType\['
+  must_not_match:
+    - 'errors\.As\('
+weight: 1

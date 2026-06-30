@@ -1,0 +1,1 @@
+Using the official MCP Go SDK (`github.com/modelcontextprotocol/go-sdk/mcp`), implement `BuildServer() *mcp.Server` that creates a server (implementation name `greeter`, version `1.0.0`) and registers one tool named `greet` with a typed handler. Use the current SDK API. Output only the Go code.

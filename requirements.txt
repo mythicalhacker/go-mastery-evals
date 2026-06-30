@@ -1,0 +1,6 @@
+# Core (case loading)
+pyyaml>=6.0
+
+# Optional — only needed for the automated API runners (not for BYO mode):
+# anthropic>=0.40.0
+# openai>=1.40.0

@@ -1,0 +1,16 @@
+id: errors-wrapping
+title: Error wrapping with %w
+category: errors
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [errors-and-resilience.md, style-synthesis.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - 'fmt\.Errorf'
+    - '%w'
+weight: 1

@@ -1,0 +1,14 @@
+id: concurrency-pipeline-cancel
+title: Multi-stage pipeline cancels cleanly mid-stream
+category: concurrency
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [concurrency.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  race: false
+weight: 1

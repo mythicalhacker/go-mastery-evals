@@ -1,0 +1,13 @@
+id: correctness-slice-aliasing
+title: Append without mutating the caller's backing array
+category: correctness
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [data-structures-and-caching.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+weight: 1

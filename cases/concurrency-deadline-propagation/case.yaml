@@ -1,0 +1,13 @@
+id: concurrency-deadline-propagation
+title: Propagate context deadline to a downstream call
+category: concurrency
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [concurrency.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+weight: 1

@@ -1,0 +1,19 @@
+id: networking-netip
+title: CIDR membership with net/netip value types
+category: networking
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [networking.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    # Any correct solution that uses the modern value types imports this path
+    # (it appears as a string literal in the import block, which the grader
+    # keeps). It does not reject a valid net/netip-based alternative — the
+    # behavioral membership test is the real discriminator.
+    - 'net/netip'
+weight: 1

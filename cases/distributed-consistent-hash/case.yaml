@@ -1,0 +1,16 @@
+id: distributed-consistent-hash
+title: Consistent hashing — minimal disruption on node removal
+category: distributed-systems
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [distributed-systems.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_not_match: a ring backed by hash/fnv or hash/crc32 are both correct;
+  # the behavioral disruption test decides (good remaps only the removed node's
+  # keys; the naive modulo version reshuffles almost everything).
+weight: 1

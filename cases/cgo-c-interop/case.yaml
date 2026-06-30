@@ -1,0 +1,15 @@
+id: cgo-c-interop
+title: cgo — correct Go↔C int conversion
+category: cgo-and-interop
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [cgo-and-interop.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - '"C"'
+weight: 1

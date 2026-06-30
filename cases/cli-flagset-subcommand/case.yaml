@@ -1,0 +1,16 @@
+id: cli-flagset-subcommand
+title: Parse a subcommand's flags with an isolated flag.FlagSet
+category: cli
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [cli-and-config.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_match: parsing with flag.NewFlagSet is the idiomatic fix, but a
+  # hand-rolled parser over `args` would also be correct. The behavioral test
+  # (which passes explicit args, never touching os.Args) is what discriminates.
+weight: 1

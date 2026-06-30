@@ -1,0 +1,17 @@
+id: concurrency-worker-ctx
+title: Leak-free worker with context cancellation
+category: concurrency
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [concurrency.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  race: false
+  must_match:
+    - 'context\.Context'
+    - 'ctx\.Done\(\)'
+weight: 1

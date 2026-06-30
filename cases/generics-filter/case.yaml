@@ -1,0 +1,16 @@
+id: generics-filter
+title: Type-safe generic Filter over any slice element type
+category: generics
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [advanced-patterns.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  # No must_match: a type parameter is the only correct shape, but the
+  # discriminator is the typed call sites in the test. A non-generic []any
+  # Filter fails to build against Filter([]int{...}) / Filter([]string{...}).
+weight: 1

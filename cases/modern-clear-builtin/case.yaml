@@ -1,0 +1,15 @@
+id: modern-clear-builtin
+title: Reset a map in place
+category: modern
+go_version: "1.26"
+package: solution
+filename: solution.go
+skill_refs: [modern-go.md]
+checks:
+  gofmt: true
+  vet: true
+  build: true
+  test: true
+  must_match:
+    - '\bclear\('
+weight: 1
