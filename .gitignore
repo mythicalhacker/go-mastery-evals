@@ -33,3 +33,4 @@ cases-aider/
 # Local API keys — never commit
 .secrets.env
 .env.local
+.claude/

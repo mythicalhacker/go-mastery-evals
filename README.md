@@ -19,8 +19,8 @@ vibes. A case compiles, passes its test, and uses the modern idiom, or it doesn'
   design, baseline protocol, and an honest retrospective on every bug.
 - 📣 **Launch copy → [RELEASE-BLURB.md](RELEASE-BLURB.md).**
 
-The headline (see RESULTS.md for the rest): the skill lifts correctness **+12 to +20 pp on every
-model of both Anthropic and OpenAI, with zero regressions**, and leads every other Go skill
+The headline (see RESULTS.md for the rest): the skill lifts correctness **+12 to +26 pp on every
+model of both Anthropic and OpenAI, with zero in-domain regressions**, and leads every other Go skill
 benchmarked — and the harness ships so anyone can check, or try to beat it.
 
 ## Why toolchain-graded
@@ -140,7 +140,7 @@ A case **passes** only if every required check passes.
 ## Coverage
 
 **54 in-domain cases** spanning concurrency (context propagation, leak-freedom, pipelines),
-error handling, modern-API modernization (Go 1.21–1.26), security, gRPC, observability/OTel, MCP,
+error handling, modern-API modernization (Go 1.22–1.26), security, gRPC, observability/OTel, MCP,
 eBPF, cgo, Wasm, cloud-native, data structures, encoding, networking, and correctness traps —
 plus a **36-case external Aider-polyglot Go track** used purely as a do-no-harm guardrail. Cases
 skew toward the *hard, current, and niche* on purpose: that is where a skill separates from a

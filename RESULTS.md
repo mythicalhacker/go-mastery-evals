@@ -286,8 +286,9 @@ it.
   magic on a model without the headroom.
 - **Out-of-domain is neutral, not positive — by design.** The skill targets production Go; it does
   not make a model better at generic algorithm puzzles and we don't claim it does.
-- **Head-to-heads were `samples=3` on a prior skill build.** Reported as conservative; the
-  `samples=5` cross-vendor matrix is the primary result.
+- **Head-to-heads were measured on a prior skill build.** The JetBrains comparison used `samples=5`
+  across all three tiers; the community comparison used `samples=3` on Sonnet. The `samples=5`
+  cross-vendor matrix is the primary result.
 
 ---
 
