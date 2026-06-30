@@ -23,9 +23,9 @@ deterministic where it can be and honest about noise where it can't.
   lifts correctness on Anthropic Haiku **+20.0 pp**, Sonnet **+16.7 pp**, Opus **+14.1 pp**, and
   on OpenAI GPT‑5.4‑nano **+26.3 pp**, GPT‑5.4‑mini **+20.7 pp**, and GPT‑5.5 **+12.6 pp**. No
   model got worse on a single case in any run.
-- **The lift is corrective, not cosmetic.** On the weakest tier (Haiku) the skill fixes **12 of
-  the 15** tasks the base model fails on its own; on the strong tiers it fixes **100%** of the
-  few they miss.
+- **The lift is corrective, not cosmetic.** On the small models the skill repairs most of what
+  the base model fails on its own — Haiku **12 of 15**, GPT‑5.4‑nano **15 of 17** — and on the
+  strong tiers it fixes **100%** of the few they miss.
 - **Still measurably better when "does it pass" saturates.** On Opus — which passes essentially
   everything with or without the skill — a deterministic, no-model quality score shows the
   with-skill code is more idiomatic by **+0.32** on already-passing cases.
@@ -154,9 +154,9 @@ the idiom-adoption deltas move accordingly (e.g. `errors-join-aggregate`: from �
 
 The aggregate signature is the tell that this is real: **the largest correctness lift lands on
 the smallest model, and compresses as the model saturates.** A weak model lacks the knowledge and
-the skill supplies it (+20 pp on Haiku); a frontier model already has most of it, so the lift
-moves from *correctness* to *quality* (+0.32 on Opus). Same skill, different axis per tier —
-exactly what a real knowledge transfer looks like.
+the skill supplies it (+26.3 pp on GPT‑5.4‑nano, +20.0 on Haiku); a frontier model already has
+most of it, so the lift moves from *correctness* to *quality* (+0.32 on Opus). Same skill,
+different axis per tier — exactly what a real knowledge transfer looks like.
 
 ---
 

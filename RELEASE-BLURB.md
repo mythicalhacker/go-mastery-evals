@@ -30,9 +30,9 @@ The result, measured across **two vendors and six models**:
 - **+26.3 / +20.7 / +12.6 pp** on OpenAI GPT‑5.4‑nano / GPT‑5.4‑mini / GPT‑5.5 — same direction,
   same shape, **not Claude-specific**.
 - **Zero regressions** anywhere — no model got worse on a single case in any run.
-- On the weakest model the skill **fixes 12 of the 15** tasks it fails on its own. On the strongest,
-  where pass/fail saturates, a deterministic quality score still shows the code is more idiomatic
-  (**+0.32** on already-passing Opus cases).
+- On the small models the skill repairs most of what they fail on their own — Haiku **12/15**,
+  GPT‑5.4‑nano **15/17**. On the strongest, where pass/fail saturates, a deterministic quality
+  score still shows the code is more idiomatic (**+0.32** on already-passing Opus cases).
 
 And against the field: **ahead of JetBrains `go-modern-guidelines` on every tier (+6.7 / +5.2 /
 +4.5 pp) and never behind on a single case**, and ahead of the leading community-authored Go skill
