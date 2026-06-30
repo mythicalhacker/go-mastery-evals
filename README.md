@@ -6,6 +6,8 @@ any Go skill actually does that. The harness is the more durable contribution. A
 skill is a claim; this repository turns the claim into a number anyone can reproduce — and the
 same number is available to anyone who wants to prove their own Go skill is better.
 
+> **The skill this benchmarks → https://github.com/mythicalhacker/go-mastery**
+
 It grades the output with the **Go toolchain itself** — `gofmt`, `go vet`, `go build`, `go test`,
 `golangci-lint` — plus a **hidden behavioral test the model never sees**. No LLM-as-judge, no
 vibes. A case compiles, passes its test, and uses the modern idiom, or it doesn't. Grading is
